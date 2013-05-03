@@ -1,0 +1,47 @@
+.word.new
+  display: none
+
+.word.current
+  text-align: center
+  .in_japanese
+    font-size: 6em
+    line-height: 1.5em
+  .romanji
+    font-size: 4em
+    line-height: 1.5em
+    visibility: hidden
+  .meaning
+    font-size: 4em
+    line-height: 1.5em
+    visibility: hidden
+  &.show_romanji
+    .romanji
+      visibility: visible
+  &.show_meaning
+    .meaning
+      visibility: visible
+
+.learn_session
+  margin-top: 25px
+
+.button_controls
+  width: 300px
+  margin: 0 auto
+  text-align: center
+
+  .hint
+    margin-top: 15px
+
+  .buttons_of_truth
+    margin: 30px 0 20px 0
+    visibility: hidden
+    &.shown
+      visibility: visible
+    .btn
+      margin: 0 20px
+      width: 100px
+
+.correct_words
+  color: green
+.wrong_words
+  color: red

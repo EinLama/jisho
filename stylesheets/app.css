@@ -1,0 +1,44 @@
+.word.new {
+  display: none; }
+
+.word.current {
+  text-align: center; }
+  .word.current .in_japanese {
+    font-size: 6em;
+    line-height: 1.5em; }
+  .word.current .romanji {
+    font-size: 4em;
+    line-height: 1.5em;
+    visibility: hidden; }
+  .word.current .meaning {
+    font-size: 4em;
+    line-height: 1.5em;
+    visibility: hidden; }
+  .word.current.show_romanji .romanji {
+    visibility: visible; }
+  .word.current.show_meaning .meaning {
+    visibility: visible; }
+
+.learn_session {
+  margin-top: 25px; }
+
+.button_controls {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center; }
+  .button_controls .hint {
+    margin-top: 15px; }
+  .button_controls .buttons_of_truth {
+    margin: 30px 0 20px 0;
+    visibility: hidden; }
+    .button_controls .buttons_of_truth.shown {
+      visibility: visible; }
+    .button_controls .buttons_of_truth .btn {
+      margin: 0 20px;
+      width: 100px; }
+
+.correct_words {
+  color: green; }
+
+.wrong_words {
+  color: red; }

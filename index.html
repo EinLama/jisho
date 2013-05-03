@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jisho</title>
+  <link href="stylesheets/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/app.css" media="all" rel="stylesheet" type="text/css" />
+
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/jisho.js"></script>
+</head>
+<body>
+
+  <div class='container'>
+    <div class='learn_session well'>
+      <div class='word current' id='current'>
+        <div class='in_japanese'></div>
+        <div class='romanji'></div>
+        <div class='meaning'></div>
+      </div>
+
+      <div class='button_controls'>
+        <button class='btn hint'>...</button>
+        <div class='buttons_of_truth'>
+          <button class='btn btn-success correct'>Richtig</button>
+          <button class='btn btn-danger wrong'>Falsch</button>
+        </div>
+      </div>
+    </div>
+
+    <div class='correct_words'></div>
+    <div class='wrong_words'></div>
+  </div>
+
+</body>
+</html>
