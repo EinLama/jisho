@@ -1,4 +1,4 @@
-# Jisho 事象
+# Jisho 辞書
 
 Japanisches Vokabelprogramm, damit lerne ich jede Woche die neuen Vokabeln des VHS-Kurses.
 
