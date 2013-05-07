@@ -4,4 +4,4 @@ Japanisches Vokabelprogramm, damit lerne ich jede Woche die neuen Vokabeln des V
 
 Kann noch nicht viel. Für alle, die Minna no nihongo beim Studium verwenden.
 
-[Live-Version](http://einlama.serpens.uberspace.de/)
+[Live-Version](http://einlama.github.io/jisho/)
